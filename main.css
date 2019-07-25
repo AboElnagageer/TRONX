@@ -1,0 +1,142 @@
+body{
+    /* font-family: 'Crimson Text', serif; */
+    color:#bf1632;
+    font-family: 'Open Sans', sans-serif;
+}
+.slide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("Back.png");
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+button{
+    background-color: #bf1632;
+    border:none;
+    padding:12px 23px;
+    color:white;
+    border-radius: 32px;
+    transition: all 0.25s; 
+    font-size:1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: grey;
+}
+.center{
+    padding-top:50px;
+    padding-bottom: 40px;
+    padding-left:25px;
+    text-align: left;
+}
+
+.flexed .top{
+    display:flex;
+    justify-content: left;
+    align-items: space-around;
+}
+.flexed button{
+    margin:25px;
+}
+
+.Brand{
+    font-size: 7rem;
+    color:#bf1632;
+    margin-left:-10px;
+}
+.details{
+    color:#bf1632;
+    font-size: 3rem;
+}
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    background-image:url("MobileApp.png");
+    background-size: 100% 100%;
+    height:533px;
+    width:269px;
+}
+.u{
+    padding:10px 20px;
+}
+
+
+.u div{
+    margin-bottom:30px
+}
+.more{
+    font-size:2.5rem
+}
+
+.headLine{
+    font-size:  3.5rem;
+    text-align: center;
+    text-align: center;
+    margin-top:87px
+}
+.botDetails{
+    text-align: center;
+}
+.last{
+    text-align:center;
+}
+.google{
+    height:74px;
+    width:200px;
+    background-image: url("googleplay.png");
+    background-size:100% 100%;
+    display:inline-block;
+    margin-top:-10px;
+}
+
+.logo{
+    height:510px;
+    width:348px;
+    background-image: url("logo.png");
+    background-size: 100% 100%;
+}
+.centerFlexed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.captured{
+    background-image: url("3.png");
+    height: 58vw;
+    width: 100vw;
+    background-size: 100% 100%;
+}
+
+.tagHeader{
+    font-size:3.5rem;
+}
+
+.final{
+    display:flex;
+    height: 58vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.row div{
+    
+    height:100px;
+    width:100px;
+    background-size:100% 100%;
+    margin:20px;
+}
